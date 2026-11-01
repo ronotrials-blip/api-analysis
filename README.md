@@ -5,7 +5,7 @@ Analysis of customer data from the JSONPlaceholder users API, framed as the firs
 
 ## Project structure
 
-day1-api-analysis/
+api-analysis/
 ├── analysis.py
 ├── requirements.txt
 ├── README.md
@@ -18,15 +18,16 @@ day1-api-analysis/
 
 ## How to run
 
-Requires Python 3.9 or later.
+Requires Python 3.11 or later.
 
 ```bash
-cd day1-api-analysis
+git clone https://github.com/ronotrials-blip/api-analysis.git
+cd api-analysis
 python3 -m pip install -r requirements.txt
 python3 analysis.py
 ```
 
-The script needs an internet connection. It creates `output/` if it doesn't exist and overwrites the files in it on each run.
+Run the script from the project root, since it writes to `output/` relative to the current folder. The script needs an internet connection.
 
 ## Approach
 
